@@ -1,0 +1,139 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "customerId",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "fullName",
+        "type": "string"
+      }
+    ],
+    "name": "isRegistered",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "string",
+            "name": "customerId",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "fullName",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "homeAddress",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "identificationNumber",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "occupation",
+            "type": "string"
+          },
+          {
+            "internalType": "bool",
+            "name": "isPep",
+            "type": "bool"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expectedMonthlyUsd",
+            "type": "uint256"
+          },
+          {
+            "internalType": "string",
+            "name": "expectedActivity",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "photoHash",
+            "type": "bytes32"
+          }
+        ],
+        "internalType": "struct KycAmlCdd.CustomerInput",
+        "name": "c",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "bool",
+            "name": "sourceOfIncomeCollected",
+            "type": "bool"
+          },
+          {
+            "internalType": "bool",
+            "name": "siteVisitCompleted",
+            "type": "bool"
+          },
+          {
+            "internalType": "bool",
+            "name": "familyAndAssociatesScreened",
+            "type": "bool"
+          }
+        ],
+        "internalType": "struct KycAmlCdd.EddInput",
+        "name": "e",
+        "type": "tuple"
+      }
+    ],
+    "name": "registerCustomer",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "customerKey",
+        "type": "bytes32"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "customerId",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "fullName",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "bool",
+        "name": "highRisk",
+        "type": "bool"
+      }
+    ],
+    "name": "CustomerRegistered",
+    "type": "event"
+  }
+]

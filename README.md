@@ -124,3 +124,20 @@ We apply AI, data science, and blockchain technologies to detect financial crime
 ✨ Key Takeaway
 
 This project demonstrates how blockchain and smart contracts can support risk-based AML compliance by making CDD and EDD automated, transparent, and auditable.
+
+📘 Further Reading: Blockchain Explained Through Story
+
+If you’re interested in the ideas behind blockchain—not just the code—I’ve also written a short book that explains Bitcoin and blockchain in the most human way possible.
+
+The Coin That No King Could Control
+A story-driven introduction to Bitcoin and blockchain
+
+Instead of technical jargon, this book uses a simple yet powerful story about power, money, and trust to explain why blockchain was created and why it matters. By following the journey of a mathematician who challenges a corrupt king, readers intuitively understand concepts like decentralization, proof of work, and trust without intermediaries.
+
+The second part of the book connects the story to the real world—explaining how Bitcoin actually works, why it emerged after the 2008 financial crisis, and how blockchain can create transparency and fairness in financial systems.
+
+📌 This repository demonstrates blockchain in practice.
+📖 This book explains blockchain in principle.
+
+👉 Available on Amazon (Kindle Edition)
+https://www.amazon.com/dp/B0FZC44YVS
